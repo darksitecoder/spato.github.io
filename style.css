@@ -1,0 +1,218 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+3&display=swap');
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(/assets/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-blackit.otf);
+}
+
+@font-face {
+    font-family: Proxima Nova normal;
+    src: url(/assets/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-medium.otf);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans 3', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    /* padding-top: 10px; */
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav img{
+    width: 200px;
+    height: 60.45px;
+}
+
+nav navbar{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-left: 10rem;
+}
+
+navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+navbar ul li{
+    list-style-type: none;
+    padding: 0rem 1rem;
+    border-left: 1px solid black;
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    height: 28px;
+}
+navbar ul .home{
+    border-left: none;
+}
+
+navbar ul a{
+    text-decoration: none;
+    color: #54606C;
+}
+
+navbar ul .active{
+    color: #44E1D5 !important;
+}
+
+/* navbar ul li:hover{
+    background-color: #54606C;
+    color: #FFFFFF;
+} */
+
+navbar ul .user-section ul{
+    display: flex;
+}
+
+navbar ul .user-section img{
+    margin-top: -20px;
+}
+navbar ul img{
+    width: 20px;
+}
+
+navbar ul .user-section  .search{
+    border: none;
+}
+navbar ul .user-section  .nav-list .count{
+    border: 1px solid black;
+    background-color: #44E1D5;
+    padding: 0px 6px;
+    border-radius: 100%;
+    position: absolute;
+    top: 3.5%;
+    right: 8.5%;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero-banner{
+    width: 100%;
+    height: 630px;
+    background: url(/assets/images/light-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid #44E1D5;
+}
+
+.hero-banner .product{
+    width: 350px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+
+.hero-banner .hero-heading{
+    position: relative;
+    top: -25%;
+    /* right: -10%; */
+    margin-left: 45rem;
+    line-height: 10px;
+}
+
+.hero-heading h3{
+font-size: 48px;
+font-weight: 900 !important;
+font-family: Proxima Nova;
+color: #54606C;
+}
+
+.hero-heading p{
+    font-family: Proxima Nova normal;
+    font-size: 20px;
+    color: #54606C;
+}
+
+.hero-banner .exclusive{
+    position: relative;
+    width: 200px;
+    top: -88.9%;
+    right: -80%;
+}
+
+.newsletter{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newsletter .form-heading h3{
+font-family: Proxima Nova;
+font-size: 30px;
+color: #54606C;
+}
+
+.newsletter .form-heading p{
+    font-family: Proxima Nova normal;
+    font-size: 20px;
+    color: #54606C;
+    }
+
+
+    .newsletter form input{
+        width: 300px;
+        height: 50px;
+        border: 1px solid #54606C;
+        border-radius: 5px;
+        margin-right: 2.5rem;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .newsletter form button{
+        width: 200px;
+        height: 52px;
+        background-color:#54606C;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 800;
+        color: #FFFFFF;
+    }
+    
+   
+    .technik-submenu{
+        display: none;
+        position: absolute;
+        background-color: #54606C;
+        top: 10%;
+        left: 31.5%;
+        text-align: left;
+    }
+    .technik-submenu ul h4{
+        border-bottom: 2px solid #44E1D5;
+    }
+    .technik-submenu ul li{
+        list-style-type: none;
+        border: none;
+        text-align: left;
+    }
+    .technik-submenu ul{
+        display: block;
+        text-align: left;
+        margin: 0px !important;
+        width: 250px;
+    }
