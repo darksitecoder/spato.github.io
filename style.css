@@ -97,9 +97,9 @@ navbar ul .user-section  .nav-list .count{
     background-color: #44E1D5;
     padding: 0px 6px;
     border-radius: 100%;
-    position: absolute;
-    top: 3.5%;
-    right: 8.5%;
+    position: relative;
+    top: -140%;
+    right: 18%;
     font-size: 12px;
     font-weight: 900;
     text-align: center;
@@ -107,11 +107,11 @@ navbar ul .user-section  .nav-list .count{
 
 .hero-banner{
     width: 100%;
-    height: 630px;
-    background: url(assets/images/light-bg.png);
+    height: 100vh;
+    background: url(assets/images/remove.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-bottom: 5px solid #44E1D5;
 }
 
@@ -124,8 +124,8 @@ navbar ul .user-section  .nav-list .count{
 
 
 .hero-banner .hero-heading{
-    position: relative;
-    top: -25%;
+    position: absolute;
+    top: 25%;
     /* right: -10%; */
     margin-left: 45rem;
     line-height: 10px;
@@ -196,7 +196,7 @@ color: #54606C;
     .dropdown-main{
         display: none;
         position: absolute;
-        top: 10%;
+        top: 9%;
         left: 30%;
         width: 65%;
         background-color: #54606C;
